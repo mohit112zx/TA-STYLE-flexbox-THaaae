@@ -1,0 +1,117 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: antiquewhite;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header{
+    background-color: rgb(67, 67, 103);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+}
+.wh, .gr{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px; 
+    position: relative;
+    top: 20px;   
+    font-weight: 800;
+}
+.gr{
+    color: green;
+   
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: brown;
+    margin: 50px;
+    text-shadow: 1px black;
+}
+.all{
+    width: 1000px;
+     margin-left: 10%;
+     background-color: white;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.img{
+    width: 300px;
+    height: 200px;
+}
+footer{
+    background-color: rgb(67, 67, 103);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    font-size: 20px;
+}
+.fa-brands{
+    margin-left: 10px;
+}
+.fa-facebook-f{
+    background-color: grey;
+    padding: 4px;
+    border-radius: 30%;
+    font-size: 20px;
+}
+.fa-square-twitter{
+  font-size: 30px;
+  position: relative;
+  top: 5px;
+}
+.copyright{
+    color: gray;
+}
