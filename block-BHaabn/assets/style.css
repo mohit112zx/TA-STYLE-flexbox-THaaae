@@ -100,17 +100,14 @@ footer{
 }
 .fa-brands{
     margin-left: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: gray;
 }
 .fa-facebook-f{
     background-color: grey;
     padding: 4px;
     border-radius: 30%;
-    font-size: 20px;
-}
-.fa-square-twitter{
-  font-size: 30px;
-  position: relative;
-  top: 5px;
 }
 .copyright{
     color: gray;
